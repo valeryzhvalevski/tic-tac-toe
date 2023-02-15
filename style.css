@@ -1,0 +1,30 @@
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.cell {
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	font-size: 48px;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.status {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.restart {
+	display: block;
+	margin: 20px auto;
+	font-size: 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
